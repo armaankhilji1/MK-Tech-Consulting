@@ -1,3 +1,4 @@
+"use client"
 import { useEffect, useRef, useState } from 'react'
 
 export function useScrollAnimation() {
@@ -32,4 +33,3 @@ export function useScrollAnimation() {
 
   return { ref, isVisible }
 }
-
